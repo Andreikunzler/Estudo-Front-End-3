@@ -1,0 +1,15 @@
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 180px;
+    justify-content: center;
+}
+
+.cont{
+    background-color: aquamarine;
+    height: 60px;
+    width: 60px;
+    
+}
