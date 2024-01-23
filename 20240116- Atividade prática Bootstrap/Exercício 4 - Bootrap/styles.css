@@ -11,32 +11,46 @@
 }
 
 .row {
-    background-color: #43a047;
-    width: vh;
-    height: vv;
+    background-color: #fff;
+    display: flex;
+    min-height: 100vh;
     text-align: center;
     align-items: center;
     
 }
-
+.container-fluid {
+    height: 100%;   
+}
 section {
     margin-top: 1rem;
 }
 
 main {
-    background-color: #fff; /* Corrigindo a cor do background */
-    width: vh;
-    height: vv;
+    background-color: #fff; 
     text-align: left;
     padding-left: 20px;
     padding-block: auto;
     align-self: center;
+    display: flex;
+    min-height: 100vh;
+    text-align: left;
+    align-items: center;
 }
 
+aside {
+    background-color: #43a047; 
+    text-align: center;
+    padding-left: 20px;
+    padding-block: auto;
+    align-self: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;;
+
+}
 .naveg {
     color: #bdbdbd;
     text-decoration: none;
-    height: 45px;
     margin-top: 1rem;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0.5px 0.5px 0 #333;
@@ -73,13 +87,12 @@ p {
     text-shadow: 0.5px 0.5px 0 #333;
 }
 
-ol,
+
 ul {
     font-family: 'Open Sans', sans-serif;
     color: #333;
     font-size: 120%;
-    margin-left: 30px;
-    width: 550px;
+    margin-left: 20px;
 }
 
 ul li::before {
@@ -90,6 +103,7 @@ ul li::before {
 
 ol li::marker {
     color: #43a047;
+    margin-left: 20px;
 }
 
 #link_site {
@@ -98,4 +112,11 @@ ol li::marker {
     color: #43a047;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0.5px 0.5px 0 #333;
+}
+
+ol {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 120%;
+    margin-left: 40px;
 }
